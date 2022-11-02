@@ -8,8 +8,7 @@ import (
 	"net/http"
 	"strings"
 	"testing"
-
-	"github.com/gorilla/rpc"
+	"github.com/mudphilo/rpc"
 )
 
 //////////////////////////////////

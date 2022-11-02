@@ -9,7 +9,7 @@ Installation
 
 Assuming you already imported gorilla/rpc, use the following command:
 
-    go get github.com/divan/gorilla-xmlrpc/xml
+    go get github.com/mudphilo/gorilla-xmlrpc/xml
 
 Implementation details
 

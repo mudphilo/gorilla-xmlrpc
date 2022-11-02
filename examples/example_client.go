@@ -4,7 +4,7 @@ import (
     "log"
     "bytes"
     "net/http"
-    "github.com/divan/gorilla-xmlrpc/xml"
+    "github.com/mudphilo/gorilla-xmlrpc/xml"
 )
 
 func XmlRpcCall(method string, args struct{Who string}) (reply struct{Message string}, err error) {

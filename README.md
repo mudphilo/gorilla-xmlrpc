@@ -1,6 +1,6 @@
 # gorilla-xmlrpc #
 
-[![GoDoc](https://godoc.org/github.com/divan/gorilla-xmlrpc/xml?status.svg)](https://godoc.org/github.com/divan/gorilla-xmlrpc/xml)
+[![GoDoc](https://godoc.org/github.com/mudphilo/gorilla-xmlrpc/xml?status.svg)](https://godoc.org/github.com/mudphilo/gorilla-xmlrpc/xml)
 
 XML-RPC implementation for the Gorilla/RPC toolkit.
 
@@ -12,7 +12,7 @@ Unlike net/rpc from Go strlib, gorilla/rpc allows usage of HTTP POST requests fo
 ### Installation ###
 Assuming you already imported gorilla/rpc, use the following command:
 
-    go get github.com/divan/gorilla-xmlrpc/xml
+    go get github.com/mudphilo/gorilla-xmlrpc/xml
 
 ### Examples ###
 
@@ -24,8 +24,8 @@ package main
 import (
     "log"
     "net/http"
-    "github.com/gorilla/rpc"
-    "github.com/divan/gorilla-xmlrpc/xml"
+    "github.com/mudphilo/rpc"
+    "github.com/mudphilo/gorilla-xmlrpc/xml"
 )
 
 type HelloService struct{}
@@ -65,7 +65,7 @@ import (
     "log"
     "bytes"
     "net/http"
-    "github.com/divan/gorilla-xmlrpc/xml"
+    "github.com/mudphilo/gorilla-xmlrpc/xml"
 )
 
 func XmlRpcCall(method string, args struct{Who string}) (reply struct{Message string}, err error) {

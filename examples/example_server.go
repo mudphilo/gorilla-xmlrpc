@@ -1,10 +1,10 @@
 package main
 
 import (
+    "github.com/mudphilo/gorilla-xmlrpc/xml"
+    "github.com/mudphilo/rpc"
     "log"
     "net/http"
-    "github.com/gorilla/rpc"
-    "github.com/divan/gorilla-xmlrpc/xml"
 )
 
 type HelloService struct{}
